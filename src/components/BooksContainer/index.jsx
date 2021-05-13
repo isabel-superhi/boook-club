@@ -28,8 +28,11 @@ const BooksContainer = ({books, pickBook, isPanelOpen}) => {
 
     prevPanelState.current = isPanelOpen
   }, [isPanelOpen, prevPanelState, scroll])
+<<<<<<< HEAD
 
   console.log(scroll)
+=======
+>>>>>>> lesson_13_2
 
   return (
     <Container $isPanelOpen={isPanelOpen}>
